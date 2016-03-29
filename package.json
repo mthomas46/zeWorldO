@@ -1,20 +1,32 @@
 {
   "name": "zeworldo",
   "version": "1.0.0",
-  "description": "world view",
+  "description": "* npm install\r * npm run watch",
   "main": "index.js",
   "dependencies": {
-    "react": "^0.14.8",
     "6to5ify": "^4.1.1",
-    "react-redux": "^4.4.1",
     "browserify": "^13.0.0",
-    "watchify": "^3.7.0",
-    "redux": "^3.3.1"
+    "react": "^0.14.8",
+    "rdfstore": "^0.9.7",
+    "react-highcharts": "^8.0.3",
+    "react-dom": "^0.14.8",
+    "react-highlight": "^0.7.0",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "watchify": "^3.7.0"
   },
   "devDependencies": {},
   "scripts": {
     "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthomas46/zeWorldO.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthomas46/zeWorldO/issues"
+  },
+  "homepage": "https://github.com/mthomas46/zeWorldO#readme"
 }
